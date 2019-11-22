@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Lifter : MonoBehaviour {
 
@@ -8,11 +6,13 @@ public class Lifter : MonoBehaviour {
     private float speed;
     [SerializeField]
     private float time;
+    [SerializeField]
+    private Sprite itemIcon;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         PlayerController pc = collision.GetComponent<PlayerController>();
-        pc.Lift(speed, time);
+        pc.Lift(speed, time, itemIcon);
         Destroy(gameObject);
     }
 }

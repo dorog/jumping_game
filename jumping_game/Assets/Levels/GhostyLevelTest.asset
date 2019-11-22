@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08e01e453931de746b609ae4904458a7, type: 3}
+  m_Name: GhostyLevelTest
+  m_EditorClassIdentifier: 
+  minBetweenPlatforms: 200
+  maxBetweenPlatforms: 300
+  maxHeight: 10000
+  basicPlatformChance: 100
+  megaPlatformChance: 0
+  movingPlatformChance: 0
+  instabilPlatformChance: 0
+  rocketPlatformChance: 0
+  hatPlatformChance: 0
