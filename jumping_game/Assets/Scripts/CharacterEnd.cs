@@ -14,7 +14,7 @@ public class CharacterEnd : MonoBehaviour {
         if (collision.gameObject.tag == tagName)
         {
             GameOver.score = (int)Camera.main.transform.position.y;
-            if (GameOver.score > ReadScores.scoreBoard.scores[9].score)
+            if (GameOver.score > ReadScores.scoreBoard.scores[ReadScores.scoreBoard.scores.Length-1].score)
             {
                 GameOver.LoadResultScene();
             }

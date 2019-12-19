@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08e01e453931de746b609ae4904458a7, type: 3}
   m_Name: GhostyLevelTest
   m_EditorClassIdentifier: 
-  minBetweenPlatforms: 200
-  maxBetweenPlatforms: 300
+  minBetweenPlatforms: 400
+  maxBetweenPlatforms: 400
   maxHeight: 10000
   basicPlatformChance: 100
   megaPlatformChance: 0

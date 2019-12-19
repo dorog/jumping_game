@@ -202,7 +202,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &211584906
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -395,7 +395,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &469776097
 Transform:
   m_ObjectHideFlags: 0
@@ -848,7 +848,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levels:
-  - {fileID: 11400000, guid: 99e4ef048f6e0964485fafb8ecb12f5a, type: 2}
+  - {fileID: 11400000, guid: 9fa5d22636c079e449b8d9394faa9867, type: 2}
+  - {fileID: 11400000, guid: d221d14d3b7ec3f4281888eb11182990, type: 2}
+  - {fileID: 11400000, guid: a711871198abc524482cfc4773d22764, type: 2}
+  - {fileID: 11400000, guid: 9b67883340cc42749a928ef789151591, type: 2}
   basicPlatform: {fileID: 3852344842845192395, guid: 26dd8a31abf20d94590160fe8c36e97d,
     type: 3}
   megaPlatform: {fileID: 1670693396483722, guid: c85f1d64725dbe04ca79245d557ee2be,
